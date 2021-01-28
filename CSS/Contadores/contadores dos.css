@@ -1,0 +1,17 @@
+body {
+    counter-reset: seccion;
+}
+
+h1 {
+    counter-reset: subseccion;
+}
+
+h1::before {
+    counter-increment: seccion;
+    content: 'Sección ' counter(seccion) '. ';
+}
+
+h2::before {
+    counter-increment: subseccion;
+    content: counter(seccion) '.' counter(subseccion) ' ';
+}

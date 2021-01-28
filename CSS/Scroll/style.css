@@ -1,0 +1,35 @@
+.uno {
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    margin: auto;
+    border: 2px solid darkslategrey;
+    overflow: visible;
+}
+
+.dos {
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    margin: auto;
+    border: 2px solid darkslategrey;
+    overflow: scroll;
+}
+
+.tres {
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    margin: auto;
+    border: 2px solid darkslategrey;
+    overflow: hidden;
+}
+
+.cuatro {
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    margin: auto;
+    border: 2px solid darkslategrey;
+    overflow: auto;
+}

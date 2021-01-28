@@ -1,0 +1,31 @@
+b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    background: blue;
+    float: left;
+    left: 0;
+    transition: width 2s ease-in-out, height 2s ease-in-out, transform 2s ease-in-out, padding-top 2s ease-in-out;
+}
+
+b:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    padding-top: 135px;
+}
+
+span {
+    display: inline-block;
+    font-size: 30px;
+    transition: font-size 2s ease, color 2s ease;
+}
+
+span:hover {
+    font-size: 260px;
+    color: darkred;
+}

@@ -1,0 +1,27 @@
+.contenedor {
+    position: relative;
+    border: 1px solid darkblue;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+}
+
+/* FIXME: El absolute no ocupa campo
+        el ancestro tiene que estar posicionado
+        toma por referencia las propiedades top, right, bottom, left*/
+
+.parrafo__uno {
+    position: absolute;
+    width: 300px;
+    bottom: 50px;
+    right: 0px;
+    border: 1px solid chartreuse;
+}
+
+.parrafo__dos {
+    position: relative;
+    width: 300px;
+    bottom: 50px;
+    right: 0px;
+    border: 1px solid darkcyan;
+}

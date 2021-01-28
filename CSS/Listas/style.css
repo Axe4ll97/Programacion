@@ -1,0 +1,61 @@
+/* primera lista ordenada */
+
+.primera-ol {
+    background: cyan;
+    list-style-type: decimal;
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.primera-ol li {
+    background: snow;
+    padding: 5px;
+}
+
+/* primera lista desordenada */
+
+.primera-ul {
+    background: slateblue;
+    padding: 8px;
+    list-style-position: outside;
+    padding-left: 25px;
+    list-style-type: circle;
+}
+
+.primera-ul li {
+    background: silver;
+    margin: 8px;
+}
+
+/* segunda lista ordenada */
+
+.segunda-ol {
+    background: rgb(226, 230, 233);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.segunda-ol li {
+    padding: 5px;
+    padding-left: 25px;
+    border-left: 5px solid red;
+}
+
+/* segunda lista desordenada */
+
+.segunda-ul {
+    border: 1px solid slategrey;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.segunda-ul li {
+    border-bottom: 1px solid slategrey;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.segunda-ul li:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,72 @@
+hr {
+    background-color: springgreen;
+    height: 3px;
+    border: 2px solid green;
+}
+
+dt {
+   font-size: 20px;
+   background-color: slategray;
+}
+
+dd {
+    background-color: lightgray;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+li:nth-child(even) {
+    background-color: wheat;
+}
+
+li:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+.nav__li {
+    float: left;
+}
+
+.nav__li a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.nav__li a:hover {
+    background-color: slategray;
+}
+
+
+.lista {
+    padding: 0px 15px;
+    margin: 0;
+}
+
+.lista__li:nth-child(even) {
+    background: silver;
+}
+
+.lista__li:nth-child(odd){
+    background-color: lightgray;
+}

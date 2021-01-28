@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index">
+    <meta name="copyright" content="Axell S.A">
+    <meta name="autor" content="Axell Garcia Rivas">
+    <meta name="keywords" content="Mi primera pagina web, mi primera web">
+    <meta name="description" content="Mi primera pagina web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+</head>
+<body>
+    <p>Este es una prueba de los script</p>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript"
+    </script>
+
+    <p id="cambiar">Cambiar la apariencia con script</p>
+    <script>
+        function myFunction() {
+        document.getElementById("cambiar").style.fontSize = "25px";
+        document.getElementById("cambiar").style.color = "red";
+        document.getElementById("cambiar").style.backgroundColor = "aqua";
+        }
+    </script>
+    <button type="button" onclick = "myFunction()">Presionarme</button>
+
+    <noscript>
+        Lo sentimos, el navegador no soporta los scripts
+    </noscript>
+    <div>
+        <h1>Mi primer Java Script</h1>
+        <p>Una demostración de cambiar el valor del atributo src de una imagen</p>
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw == 0) {
+                    pic = "pic_bulboff.gif"
+                } else {
+                    pic = "pic_bulbon.gif"
+                }
+                document.getElementById("myImage").src = pic;
+            }
+        </script>
+
+        <img src="" alt="Gif de prueba" id="myImage" width="100px" height="100px">
+
+        <p>
+            <button type="button" onclick="light(1)">Light On</button>
+            <button type="button" onclick="light(0)">Light off</button>
+        </p>
+    </div>
+</body>
+</html>

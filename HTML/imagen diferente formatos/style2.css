@@ -1,0 +1,6 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/95/21/6357ec6ce346d1b.jpg);
+    background-repeat: no-repeat;       /* para no repetir la imagen */
+    background-size: cover;             /* para que la imagen cubra todo el fondo */
+    background-attachment: fixed;       /* para asegurar que la imagen cubra todo */
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courgette', sans-serif, cursive;
+    background-color: #000;
+    background-image: url(../Aprueba\ Image/Morado.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    color: #f00;
+}
+
+h1 {
+    border: 6px double greenyellow;
+    outline: 6px double green;
+    outline-offset: 3px;
+}
+
+h2 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    
+}
+
+.prueba {
+    white-space: normal;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.pruebatitulo {
+    font-size: 10vw;
+}

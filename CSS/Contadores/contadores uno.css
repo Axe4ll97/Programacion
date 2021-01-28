@@ -1,0 +1,11 @@
+body {
+    counter-reset: Lenguaje;
+    /* este es el nombre de la función de los contadores */
+}
+
+h2::before {
+    counter-increment: Lenguaje;
+    /* que es lo que va a incrementar */
+    content: 'Lenguaje' counter(Lenguaje) ': ';
+    /* este es para ver el orden del contenido */
+}

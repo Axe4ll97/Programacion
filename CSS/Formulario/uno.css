@@ -1,0 +1,69 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url(../../FONDOS\ DE\ PANTALLAS/net.jpg) ;
+    margin-top: 200px;
+}
+
+.contenedor__formulario {
+    background: #eee;
+    border-radius: 5px;
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+input[type="text"], select[name="pais"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .5s;
+    border:2px solid #ccc;
+    border-radius: 5px;
+}
+
+input[name="search"]{
+    background-image: url(../Aprueba\ Image/buscar.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    box-sizing: border-box;
+    padding: 10px 0px 10px 40px;
+    width: 35%;
+}
+
+input[name="search"]:focus {
+    width: 87.5%;
+}
+
+
+label[for="buscar"] {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+input[type="text"]:focus, select[name="pais"]:focus{
+    border: 2px solid #555;
+}
+
+input[type="submit"] {
+    width: 50%;
+    border-radius: 5px;
+    background: #00b31e;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    margin-right: 25.5%;
+    margin-left: 25.5%;
+    outline: none;
+    transition: all .5s;
+    border: 2px solid #00b31e;
+}
+
+input[type="submit"]:focus {
+    border: 2px solid #00480c;
+}

@@ -1,0 +1,36 @@
+a:link {                                /* editar los texto para ir a un link */
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {                              /* al presionar se activa el color */
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+
+button:active {
+    background-color: red;
+}

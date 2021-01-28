@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: repeating-linear-gradient(to right bottom, #e6e6e6,#e6ffb3 5%, #e6e6e6 10%);
+}
+
+.titulo {
+    background-image: url(../FONDOS\ DE\ PANTALLAS/Paisajes/aurora.jpg);
+    background-size: cover;
+    background-position: 100% 530px;
+    background-attachment: fixed;
+    height: 300px;
+    position: relative;
+}
+
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 1px 0px #000, -1px 0px #000, 0px 1px #000, 0px -1px #000, 0px 15px 15px #000;
+}
+
+.secundario>span {
+    font-size: 30px;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+}
+
+.nav_ul {
+    overflow: hidden;
+    background: #a3eeff;
+    height: 35px;
+}
+
+.nav_li {
+    float: left;
+    list-style-type: none;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    color: #000;
+}
+
+.link:hover, .ventana:hover {
+    background: #00dbfc;
+}
+
+.izquierda {
+    float: right;
+}
+
+.ventana-desplegable {
+    box-shadow: 0px 3px 5px 2px #222;
+    background-color: #fff;
+    position: absolute;
+    right: 5px;
+    width: 180px;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
+
+.ventana:hover>.ventana-desplegable {
+    display: block;
+}
+
+.desplegable-lista {
+    list-style-type: none;
+}
+
+.link-desplegable {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 8px 14px;
+    color: #000;
+}
+
+.link-desplegable:hover{
+    background: #000;
+    color: #fff;
+}
+
+.icono {
+    margin-right: 5px;
+}
+
+
+.columna   {
+    display: inline-block;
+}
+
+.uno {
+    width: 15%;
+    text-align: justify;
+    padding: 10px 10px 0px 10px;
+    float: left;
+    font-size: 18px;
+}
+
+.dos {
+    width: 65%;
+    text-align: justify;
+    padding: 10px 60px 0px 60px;
+    font-size: 22px;
+}
+
+.tres {
+    float: right;
+    width: 20%;
+    padding: 10px 10px 0px 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 950px) {
+    .titulo {
+        background-image: url(../FONDOS\ DE\ PANTALLAS/Paisajes/aurora.jpg);
+        background-size: cover;
+        background-position: 100% 350px;
+        background-attachment: fixed;
+        height: 300px;
+        position: relative;
+    }
+
+    .titulo-principal {
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        text-shadow: 1px 0px #000, -1px 0px #000, 0px 1px #000, 0px -1px #000, 0px 15px 15px #000;
+    }
+
+    .secundario>span {
+        font-size: 25px;
+        margin: 0 2px;
+        text-decoration: underline;
+    }
+
+    .nav {
+        background: #a3eeff;
+        position: sticky;
+        top: 0;
+    }
+
+    .nav_ul {
+        overflow: hidden;
+        height: 25px;
+    }
+    
+    .nav_li {
+        float: left;
+        list-style-type: none;
+    }
+
+    .izquierda {
+        float: right;
+    }
+    
+    .link {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        padding: 3px 8px;
+        font-size: 16px;
+    }
+
+    .link:hover, .ventana:hover {
+        background: #00dbfc;
+    }
+
+    .icono {
+        margin-right: 3px;
+    }
+
+    .ventana-desplegable {
+        position: absolute;
+        background: #fff;
+        width: 110px;
+        box-shadow: 0px 5px 5px #222;
+        display: none;
+        z-index: 1;
+    }
+
+    .desplegable-lista {
+        list-style-type: none;
+    }
+    
+    .link-desplegable {
+        text-decoration: none;
+        padding: 5px 5px;
+        color: #000;
+        display: block;
+        font-size: 16px;
+    }
+
+    .link-desplegable:hover {
+        background: #000;
+        color: #fff;
+    }
+
+    .ventana:hover>.ventana-desplegable {
+        display: block;
+    }
+
+    .columna {
+        width: 100%;
+        text-align: justify;
+        padding: 15px 10px;
+        margin-top: 15px;
+    }
+
+    .columna:first-child {
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .nav_ul {
+        height: 50px;
+    }
+
+    .link {
+        padding: 3px 15px ;
+    }
+}

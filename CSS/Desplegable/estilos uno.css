@@ -1,0 +1,272 @@
+/* FIXME:Barra de navegación vertical
+.primera__ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.primera__li {
+    background: #bbb;
+    border-bottom: 1px solid #000;
+    border-left: 5px solid #000;
+    transition: all .300s;
+}
+
+/* FIXME:este es para que no le afecte el hover a la clase home que seria la pagina que estamos /
+.primera__li--a:hover:not(.home) {
+    border-left: 40px solid #000;
+    transition: all.300s;
+}
+
+.primera__li:active {
+    border-left: 450px solid #000;
+}
+
+.primera__li--a.home {
+    background: #4f4af4;
+    border-left: 15px solid #000;
+}
+
+.primera__li--a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+} */
+
+/* FIXME:Barra de navegación vertical fija
+.segunda__ul {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: fixed;
+    background: #efe8ff;
+    height: 100%;
+    overflow: auto;
+}\
+
+.segunda__li--a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.segunda__li--a.home2 {
+    background: #83ffbb;
+}
+
+.segunda__li--a:hover {
+    background: #555;
+    color: #fff;
+}
+
+.main {
+    margin-left: 20%;
+    padding-left: 15px;
+} */
+
+/* .tercera__ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background: #222;
+}
+
+.tercera__li {
+    float: left;
+}
+
+.tercera__li--a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+.tercera__li--a.home3 {
+    background: #666;
+}
+
+.tercera__li--a:hover:not(.home3) {
+    background: #777;
+}
+
+.tercera__li--derecha {
+    float: right;
+} */
+
+/* FIXME:Cuarta barra de navegación */
+/* body{
+    padding: 0;
+    margin: 0;
+}
+.cuarta__ul {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style: none;
+    background: #ddd;
+    overflow: hidden;
+}
+
+.cuarta__li {
+    float: left;
+}
+
+.cuarta__li--a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.cuarta__li--a.home4 {
+    background: #67cae8;
+    color: #fff;
+}
+
+.cuarta__li--a:hover:not(.home4) {
+    background: #555;
+    color: #fff;
+}
+
+.principal {
+    margin-top: 45px;
+    padding-top: 5px;
+    background: #d1b1ff;
+} */
+
+/*FIXME: Quinta barra de navegación */
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+.titulos {
+    width: 100%;
+    background: #bbbbbb38;
+    height: 150px;
+}
+
+.titulos > h1, h2 {
+    text-align: center;
+    font-family: fantasy;
+    padding: 15px;
+    
+}
+
+.quinta__ul {
+    list-style: none;
+    background: cyan;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.quinta__li {
+    float: left;
+}
+
+.quinta__li--a {
+    text-decoration: none;
+    display: block;
+    padding: 12px 15px;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.quinta__li--a.home5 {
+    border-bottom: 3px solid #000;
+}
+
+.quinta__li--a:hover {
+    background: linear-gradient( #25918c3a, #25918c65, #25918b);
+    color: #fff;
+    border-bottom: 3px solid #000;
+}
+
+.cuerpo {
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+} */
+
+/* FIXME: Sexta barra de navegación y desplegable */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.sexta__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #deecfd;
+}
+
+.sexta__li {
+    float: left;
+}
+
+.sexta__li--a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.sexta__li--a.home6 {
+    background: #bad7fc;
+}
+
+.sexta__li--a:hover, .desplegable:hover {
+    background: #bad7fc;
+} 
+
+.sexta__li--a.desplegable {
+    display: inline-block;
+}
+
+.desplegable__ul {
+    display: none;
+    position: absolute;
+    background: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.desplegable__li--a {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.desplegable__li--a:hover {
+    background: #aaa;
+}
+
+.desplegable:hover .desplegable__ul {
+    display: block;
+
+}

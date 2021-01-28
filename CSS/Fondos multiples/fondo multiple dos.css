@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen-heroe {
+    background-image: url(../../FONDOS\ DE\ PANTALLAS/Naruto/boruto.jpg);
+    background-position: top center;
+    background-size: cover;
+    /* FIXME:si no se posiciona las letras se centraran en el body */
+    position: relative;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.texto-heroe {
+    text-align: center;
+    /* FIXME:se pone esta posición para que se acomode las letras en el centro */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.uno {
+    text-align: center;
+    font-size: 24px;
+}
+
+.dos {
+    text-align: justify;
+    font-size: 18px;
+    position: relative;
+    width: 50%;
+    left: 25%;
+}

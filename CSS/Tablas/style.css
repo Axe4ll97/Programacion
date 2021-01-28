@@ -1,0 +1,94 @@
+.primero {
+    width: 100%;
+    height: 250px;
+    border-collapse: collapse;
+}
+
+.primero, .primero th, .primero tr, .primero td {
+    border: 1px solid black;
+}
+
+.primero th{
+    text-align: left;
+}
+
+.primero th, .primero td {
+    vertical-align: center;
+}
+
+.numero {
+    text-align: left;
+}
+
+/* FIXME:Segunda tabla */
+.dos {
+    border-collapse: collapse;
+    width: 100%;
+}
+.dos tr, .dos th, .dos td {
+    border-bottom: 1px solid slateblue;
+    padding: 5px;
+    text-align: left;
+}
+
+/* FIXME:Tercera tabla */
+.tercera {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tercera__th, .tercera__td {
+    border-bottom: 1px solid rgb(0, 255, 128);
+    padding: 8px;
+    text-align: left;
+}
+
+.tercera__celda:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+/* FIXME:Cuarta tabla */
+.cuarta {
+    border-collapse: collapse;
+    width: 100%;
+}
+.cuarta__th, .cuarta__td {
+    padding: 8px;
+}
+
+.cuarta__th {
+    background-color: green;
+    text-align: left;
+    color: white;
+}
+
+.cuarta__celda:nth-child(even){
+    background-color: rgb(232, 232, 232);
+}
+
+.cuarta__celda:hover {
+    background: rgb(201, 201, 201);
+}
+
+.quinta {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.quinta__celda:nth-child(even) {
+    background: rgb(238, 238, 238);
+}
+
+.quinta__celda:hover {
+    background: lightblue;
+}
+
+.quinta__th {
+    background: darkcyan;
+    text-align: left;
+    color: white;
+}
+
+.quinta__th, .quinta__td {
+    padding: 5px 20px;
+}

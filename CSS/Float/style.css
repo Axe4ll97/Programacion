@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.prueba {
+    max-width: 550px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.prueba__imagen {
+    float: left;
+    padding-right: 20px;
+}
+.prueba__dos {
+    border: 2px solid darkmagenta;
+    overflow: auto;
+    text-align: justify;
+    background: linear-gradient(to right, #dd3e537e, #6be5857e), url(../Aprueba\ Image/Morado.jpg);
+}
+
+.prueba__dos--imagen {
+    float: left;
+    padding: 10px 5px;
+}
+
+.prueba__dos--parrafo {
+    padding: 5px;
+}
+
+
+.prueba__tres {
+    width: 100%;
+    border: 2px solid grey;
+
+}
+
+.prueba__tres::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imagen {
+    float: left;
+    width: 33.33%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}

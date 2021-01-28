@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../FONDOS\ DE\ PANTALLAS/Texturas\ Image/bla.jpg);
+    background-position: 100%;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 10px 12px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+    transition: font-size .5s ease, color .5s ease;
+}
+
+a:hover {
+    font-size: 4.6em;
+    color: #6afce3;
+
+}

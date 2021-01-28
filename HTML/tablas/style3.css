@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;      /* para que la tabla presente una linea */
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-spacing: 5px;              /* para que haya espacio entre las cajas */
+}
+
+table tr:nth-child(even) {
+    background-color: turquoise;    /* pares */
+}
+table tr:nth-child(odd) {
+    background-color: thistle;      /* impares */
+}
+
+caption {
+    background-color: darkcyan;
+    padding: 10px 5px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}

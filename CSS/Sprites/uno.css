@@ -1,0 +1,64 @@
+/* .nav__lista {
+    position: relative;
+}
+
+.nav__lista li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+.nav__lista li, .nav__lista a {
+    height: 256px;
+    display: block;
+}
+
+#uno {
+    left: 0;
+    width: 512px;
+    background: url(../Aprueba\ Image/sprites-cat-running.png) 0 0 ;
+}
+
+#dos {
+    left: 512px;
+    width: 512px;
+    background: url(../Aprueba\ Image/sprites-cat-running.png) -512px 0 ;
+} */
+
+.gato {
+    height: 256px;
+    width: 512px;
+    margin: auto;
+    background: url(../Aprueba\ Image/sprites-cat-running.png);
+    animation: correr .5s steps(1)  infinite;
+}
+
+@keyframes correr {
+    0% {
+        background-position: 0 0;
+    }
+    14.3% {
+        background-position: -512px -0px;
+    }
+    28.6% {
+        background-position: -1024px 0px;
+    }
+    42.9% {
+        background-position: -1536px 0px;
+    }
+    57.2% {
+        background-position: 0px -256px;
+    }
+    71.5% {
+        background-position: -512px -256px;
+    }
+    85.8% {
+        background-position: -1024px -256px;
+    }
+    100% {
+        background-position: -1536px -256px;
+    }
+
+}
