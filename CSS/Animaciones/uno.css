@@ -3,3 +3,47 @@
     margin: 0;
     box-sizing: content-box;
 }
+
+.ejemplo {
+    position: relative;
+    animation: titulo-animacion 5s linear 1s infinite alternate;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.letras {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 8px;
+}
+
+@keyframes titulo-animacion{
+    0% {
+        background-color: aqua;
+        top: 0;
+        left: 0;
+    }
+    25% {
+        background-color: blueviolet;
+        top: 0;
+        left: 300px;
+    }
+    50% {
+        background-color: blue;
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        background-color: brown;
+        top: 300px;
+        left: 0;
+    }
+    100% {
+        background-color: aqua;
+        top: 0;
+        left: 0;
+    }
+}
