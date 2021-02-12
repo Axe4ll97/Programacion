@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.primer-p, .segunda-p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.titulo>.titulo-texto {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px;
+
+    /* Posición del titulo */
+    position: absolute;
+    z-index: 1;
+}
+
+.titulo:hover>.titulo-texto {
+    visibility: visible;
+}
