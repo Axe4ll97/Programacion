@@ -31,7 +31,7 @@
     height: 256px;
     width: 512px;
     margin: auto;
-    background: url(../Aprueba\ Image/sprites-cat-running.png);
+    background: url(../../Aprueba\ Image/sprites-cat-running.png);
     animation: correr .5s steps(1)  infinite;
 }
 

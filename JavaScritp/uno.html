@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="autor" content="Axell Garcia Rivas">
@@ -10,7 +11,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciando JavaScript</title>
 </head>
+
 <body>
-    
+    <!-- 
+        Con JavaScript se puede puede cambiar contenido HTML
+    -->
+    <h2>Que puedo hacer JavaScript</h2>
+    <p id="cambiando-contenido">Cambiare el contenido con JavaScript</p>
+    <button type="button" onclick="document.getElementById('cambiando-contenido').innerHTML='Hello JavaScript'">Haz
+        click aquí</button>
+
+    <!-- 
+        Con JavaScript se pueden cambiar los valores de los atributos HTML
+    -->
+    <h2>Que puedo hacer con JavaScript</h2>
+    <p>Puedes cambiar los valores de los atributos</p>
+    <p>En este caso, JavaScript cambia el valor del atributo src (fuente) de una imagen</p>
+
+    <button onclick="document.getElementById('myImage').src='../FONDOS DE PANTALLAS/Gif image/pic_bulbon.jpg'">Encender la luz</button>
+
+    <img id="myImage" src="../FONDOS DE PANTALLAS/Gif image/pic_bulboff.jpg" alt="gif de bombillo" style="width: 200px; border-radius: 5px;">
+
+    <button onclick="document.getElementById('myImage').src='../FONDOS DE PANTALLAS/Gif image/pic_bulboff.jpg'">Apagar la luz</button>
+
+    <!--
+        Con JavaScript puedes cambiar los estilos HTML (CSS)
+    -->
+    <h2>Se puede cambiar los estilos del html</h2>
+    <p id="ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor officiis ut, nostrum alias, pariatur eveniet quod sapiente, incidunt voluptatem dolores fuga. Temporibus corrupti aspernatur iste debitis est dolorem officiis excepturi.</p>
+    <button onclick="document.getElementById('ejemplo').style.fontSize='35px'">Haz click aquí</button>
+
+    <!-- 
+        Con JavaScript puedes ocultar elementos
+    -->
+    <h2>Se pueden ocultar elementos del HTML</h2>
+    <p id="cambiar">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ex cupiditate corporis nesciunt adipisci quia veniam officiis fugiat sit quibusdam hic, iure veritatis, a maxime. Fugit consectetur laboriosam consequatur blanditiis.</p>
+    <button onclick="document.getElementById('cambiar').style.display='none'">Haz click aqui</button>
+
+     <!-- 
+        Con JavaScript se puede hacaer que se muestren elemento
+    -->
+
+    <h2>Se puede hacer que se muestren elemntos del HTML</h2>
+    <p id="mostrar" style="display: none;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus reiciendis consectetur dolores consequuntur. Beatae hic eos, consectetur quisquam ratione odit accusantium velit deserunt maxime, quo sint numquam nam porro.</p>
+    <button onclick="document.getElementById('mostrar').style.display='block'">Mostrar contenido</button>
+
 </body>
+
 </html>
